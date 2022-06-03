@@ -1,0 +1,62 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
+img{
+  height: 200px;
+}
+.messages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.message{
+  margin: 4px;
+  text-align: center;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: darkgoldenrod;
+}
+
+.message:nth-child(odd) {
+  background-color: crimson;
+  color:white;
+}
+
+.container{
+  text-align: center;
+}
+
+.jumbotron{
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
+.container .jumbotron{
+  border-radius: 20%;
+}
+
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  font-size: 60px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font: 30px 'Homemade Apple', cursive;
+  color: white;
+  padding-left: 40px;
+  padding-right: 35px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px rgb(4 4 4 / 28%);
+}
